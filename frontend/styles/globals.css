@@ -1,0 +1,32 @@
+/* global.css */
+
+.profile-card-hover {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.profile-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.profile-value {
+  font-size: 2rem;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+
+.crypto-table tbody tr {
+  background-color: #f8f9fa; /* Light grayish background */
+  transition: background-color 0.3s ease;
+}
+
+.crypto-table tbody tr:hover {
+  background-color: #1a7ee9 !important; /* Baby blue on hover */
+}

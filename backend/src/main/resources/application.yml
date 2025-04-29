@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    url: jdbc:mariadb://localhost:3306/crypto_db?allowPublicKeyRetrieval=true&useSSL=false
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: admin
+  flyway:
+    url: jdbc:mariadb://localhost:3306/crypto_db?allowPublicKeyRetrieval=true&useSSL=false
+    schemas: crypto_db
+    user: root
+    password: admin
